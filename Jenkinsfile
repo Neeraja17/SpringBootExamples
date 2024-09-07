@@ -2,7 +2,10 @@ pipeline {
 agent any
 stages {
 stage("Build") {
-echo "Build stage in progess....."
+  steps {
+    echo "Build stage in progess....."
+  }
+
 }
 }
 }
